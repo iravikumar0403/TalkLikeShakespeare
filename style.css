@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+body{ 
+    background-image: url(https://lithub.com/wp-content/uploads/2020/08/Sonnet-18-History-of-Literature-Podcast.jpg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+#txt-input{
+    display: block;
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    height: 15rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#translate-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: #000000;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#output{
+    border: 1px solid black;
+    max-width: 800px;
+    width: 90%;
+    height: 15rem;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: white;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    color: white;
+    padding: 60px;
+}
+
+.txt{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
