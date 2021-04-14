@@ -10,6 +10,8 @@ body{
     background-image: url(https://lithub.com/wp-content/uploads/2020/08/Sonnet-18-History-of-Literature-Podcast.jpg);
     background-size: cover;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-position: center;
 }
 
 nav{
@@ -43,6 +45,7 @@ main{
     display: block;
     margin: auto;
     margin-bottom: 20px;
+    font-size: 22px;
 }
 #output{
     border: 1px solid black;
@@ -60,6 +63,7 @@ footer{
     margin-top: 50px;
     color: white;
     padding: 60px;
+    font-size: 18px;
 }
 
 .txt{
